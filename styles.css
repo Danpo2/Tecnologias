@@ -83,7 +83,7 @@ body {
 
 @font-face {
     font-family: 'Nico Moji';
-    src: url('Fonts/NicoMoji-Regular.ttf') format('truetype');
+    src: url('fonts/NicoMoji-Regular.ttf') format('truetype');
     font-weight: Regular;
     font-style: Regular;
 }
