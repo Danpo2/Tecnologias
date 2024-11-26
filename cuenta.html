@@ -45,6 +45,7 @@
             cursor: pointer;
             transition: background-color 0.3s;
             font-weight: bold; 
+            margin-bottom: 30px;
         }
 
         .btn:hover {
@@ -52,17 +53,23 @@
         }
 
         .btn:last-of-type {
-            margin-bottom: 0;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-
     <div class="account-container">
-        <h1>Cuenta en FitneesPlus</h1>
-        <button class="btn">Cambiar de Cuenta</button>
-        <button class="btn">Cerrar Sesión</button>
+        <h1>Cuenta en FitnessPlus</h1>
+    
+        <!-- Formulario para Cambiar de Cuenta -->
+        <a href="login.html">
+            <button class="btn">Cambiar de Cuenta</button>
+        </a>
+        <br>
+        <!-- Formulario para Cerrar Sesión -->
+        <form method="POST" action="php/cerrar.php">
+            <button class="btn">Cerrar Sesión</button>
+        </form>
     </div>
-
 </body>
 </html>
